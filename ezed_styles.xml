@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2008 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * This is the sample style definitions file. It makes the styles combo
+ * completely customizable.
+ *
+ * See FCKConfig.StylesXmlPath in the configuration file.
+ *
+ * Use the node style to reference the exsting CSS styles rather than
+ * recreating them here. For example, if there is a CSS style called "subhead"
+ * use the following definition:
+ *
+ *				<Style name="Subhead" element="span">
+ *					<Attribute name="class" value="Subhead"/>
+ *				</Style>
+ * Be sure to use an element of "span" so only the selected text will be affected
+ *
+-->
+<Styles>
+	<Style name="Text" element="span">
+		<Attribute name="class" value="bodytext"/>
+	</Style>
+	<Style name="Text " element="span">
+		<Attribute name="class" value="bodytext"/>
+	</Style>
+	<Style name="Header" element="span">
+		<Attribute name="class" value="HEADER"/>
+	</Style>
+	<Style name="Header XLG" element="span">
+		<Attribute name="class" value="HEADERXLG"/>
+	</Style>
+	<Style name="Header XXLG" element="span">
+		<Attribute name="class" value="HEADERXXLG"/>
+	</Style>
+		<Style name="Header Orange" element="span">
+		<Attribute name="class" value="HEADERorange"/>
+	</Style>
+</Styles>

@@ -1,0 +1,122 @@
+[2025-04-02 13:05:52] Script started
+[2025-04-02 13:05:52] Included database connection file
+[2025-04-02 13:05:52] Session started
+[2025-04-02 13:05:52] Site URL from session: ''
+[2025-04-02 13:05:52] POST data: array (
+)
+[2025-04-02 13:05:52] Database connection initialized
+[2025-04-02 13:05:52] Form not submitted
+[2025-04-02 13:05:52] Final state before rendering: array (
+  'userFound' => false,
+  'emailSent' => false,
+  'errorMessage' => '',
+)
+[2025-04-02 13:06:05] Script started
+[2025-04-02 13:06:05] Included database connection file
+[2025-04-02 13:06:05] Session started
+[2025-04-02 13:06:05] Site URL from session: ''
+[2025-04-02 13:06:05] POST data: array (
+  'username' => 'admin',
+  'email' => '',
+  'sendpwd' => 'Submit',
+)
+[2025-04-02 13:06:05] Database connection initialized
+[2025-04-02 13:06:05] Form submitted
+[2025-04-02 13:06:05] Form input - username: 'admin'
+[2025-04-02 13:06:05] Form input - email: ''
+[2025-04-02 13:06:05] Searching by username: 'admin'
+[2025-04-02 13:06:05] SQL Query: 'SELECT username, pwd, first_name, email FROM users WHERE username = ?'
+[2025-04-02 13:06:05] Statement prepared successfully
+[2025-04-02 13:06:05] Parameters bound to query
+[2025-04-02 13:06:05] Query executed: 'success'
+[2025-04-02 13:06:05] Result variables bound
+[2025-04-02 13:06:05] Fetch result: 'user found'
+[2025-04-02 13:06:05] User data: array (
+  'username' => 'admin',
+  'password' => '2Psinapod',
+  'first_name' => 'admin',
+  'email' => 'craig@studioofdance.com',
+)
+[2025-04-02 13:06:05] Statement closed
+[2025-04-02 13:06:05] Processing user found result
+[2025-04-02 13:06:05] User has email: 'craig@studioofdance.com'
+[2025-04-02 13:06:05] Attempting to send email
+[2025-04-02 13:06:05] Email subject: 'Website maintenance login'
+[2025-04-02 13:06:05] Email message: '
+Hello admin
+
+Here are your username and password to the maintenance system of your website
+
+Username: admin
+Password: 2Psinapod
+To return to the maintenance login page, click here: https:///edit'
+[2025-04-02 13:06:05] Email headers: 'From: noreply@s2e-demo.com
+Reply-To: noreply@s2e-demo.com
+X-Mailer: PHP/7.4.33'
+[2025-04-02 13:06:05] Email sending result: 'success'
+[2025-04-02 13:06:05] Final state before rendering: array (
+  'userFound' => true,
+  'emailSent' => true,
+  'errorMessage' => '',
+)
+[2025-04-02 13:07:16] Script started
+[2025-04-02 13:07:16] Included database connection file
+[2025-04-02 13:07:16] Session started
+[2025-04-02 13:07:16] Site URL from session: ''
+[2025-04-02 13:07:16] POST data: array (
+)
+[2025-04-02 13:07:16] Database connection initialized
+[2025-04-02 13:07:16] Form not submitted
+[2025-04-02 13:07:16] Final state before rendering: array (
+  'userFound' => false,
+  'emailSent' => false,
+  'errorMessage' => '',
+)
+[2025-04-02 13:07:21] Script started
+[2025-04-02 13:07:21] Included database connection file
+[2025-04-02 13:07:21] Session started
+[2025-04-02 13:07:21] Site URL from session: ''
+[2025-04-02 13:07:21] POST data: array (
+  'username' => 'demo',
+  'email' => '',
+  'sendpwd' => 'Submit',
+)
+[2025-04-02 13:07:21] Database connection initialized
+[2025-04-02 13:07:21] Form submitted
+[2025-04-02 13:07:21] Form input - username: 'demo'
+[2025-04-02 13:07:21] Form input - email: ''
+[2025-04-02 13:07:21] Searching by username: 'demo'
+[2025-04-02 13:07:21] SQL Query: 'SELECT username, pwd, first_name, email FROM users WHERE username = ?'
+[2025-04-02 13:07:21] Statement prepared successfully
+[2025-04-02 13:07:21] Parameters bound to query
+[2025-04-02 13:07:21] Query executed: 'success'
+[2025-04-02 13:07:21] Result variables bound
+[2025-04-02 13:07:21] Fetch result: 'user found'
+[2025-04-02 13:07:21] User data: array (
+  'username' => 'demo',
+  'password' => 'demo',
+  'first_name' => 'Demo',
+  'email' => 'craig@studioofdance.com',
+)
+[2025-04-02 13:07:21] Statement closed
+[2025-04-02 13:07:21] Processing user found result
+[2025-04-02 13:07:21] User has email: 'craig@studioofdance.com'
+[2025-04-02 13:07:21] Attempting to send email
+[2025-04-02 13:07:21] Email subject: 'Website maintenance login'
+[2025-04-02 13:07:21] Email message: '
+Hello Demo
+
+Here are your username and password to the maintenance system of your website
+
+Username: demo
+Password: demo
+To return to the maintenance login page, click here: https:///edit'
+[2025-04-02 13:07:21] Email headers: 'From: noreply@s2e-demo.com
+Reply-To: noreply@s2e-demo.com
+X-Mailer: PHP/7.4.33'
+[2025-04-02 13:07:21] Email sending result: 'success'
+[2025-04-02 13:07:21] Final state before rendering: array (
+  'userFound' => true,
+  'emailSent' => true,
+  'errorMessage' => '',
+)
