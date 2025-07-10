@@ -1,0 +1,205 @@
+# .gitignore for Simple2Edit CMS Project
+
+# ============================================
+# Composer Dependencies
+# ============================================
+/vendor/
+composer.lock
+
+# ============================================
+# Environment & Configuration Files
+# ============================================
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database connection files (if any contain credentials)
+config/database.php
+db_config.php
+
+# ============================================
+# User-Generated Content & Uploads
+# ============================================
+/uploads/
+/images/
+/media/
+/files/
+/gallery/
+/photos/
+user_uploads/
+customer_uploads/
+
+# Generated HTML files (static output)
+/generated/
+/output/
+/static/
+*.generated.html
+
+# ============================================
+# Logs & Cache
+# ============================================
+/logs/
+*.log
+/storage/logs/
+/storage/cache/
+/cache/
+/tmp/
+temp/
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PHPStorm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Backup & Archive Files
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*.tmp
+*~
+
+# Database backups
+*.sql
+*.dump
+database_backups/
+backups/
+
+# CMS-specific backups
+cms_backup_*
+site_backup_*
+
+# ============================================
+# Security & Sensitive Files
+# ============================================
+# Server diagnostic files (can contain sensitive info)
+phpinfo*.html
+phpinfo*.php
+server_diagnostic*.txt
+server_diagnostic*.php
+
+# SSL certificates and keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.ppk
+
+# ============================================
+# Development & Testing Files
+# ============================================
+/tests/output/
+/tests/tmp/
+phpunit.xml
+.phpunit.result.cache
+coverage/
+
+# Node.js (if using any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# CKEditor/CKFinder Generated Files
+# ============================================
+# If using CDN, these won't exist
+# If hosting locally, keep core files but ignore user content
+/ckeditor/plugins/*/samples/
+/ckeditor/samples/
+/ckfinder/userfiles/
+/ckfinder/config.php
+
+# ============================================
+# Site-Specific Deployment Files
+# ============================================
+# These would be site-specific in your distributed model
+site_config_*.php
+deployment_*.php
+install_*.php
+
+# FTP/deployment credentials
+.ftpconfig
+deploy.config
+.deploy/
+
+# ============================================
+# Package Manager Files
+# ============================================
+# Composer (already covered above, but for completeness)
+/vendor/
+composer.lock
+
+# NPM/Yarn (if ever added)
+package-lock.json
+yarn.lock
+
+# ============================================
+# Error & Debug Files
+# ============================================
+error_log
+php_errors.log
+debug.log
+*.error
+
+# ============================================
+# Documentation Build Files
+# ============================================
+/docs/build/
+/docs/_build/
